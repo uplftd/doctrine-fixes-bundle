@@ -3,9 +3,10 @@
 namespace Ruvents\DoctrineFixesBundle\Tests\DependencyInjection;
 
 use Matthias\SymfonyConfigTest\PhpUnit\ConfigurationTestCaseTrait;
+use PHPUnit\Framework\TestCase;
 use Ruvents\DoctrineFixesBundle\DependencyInjection\Configuration;
 
-class ConfigurationTest extends \PHPUnit_Framework_TestCase
+class ConfigurationTest extends TestCase
 {
     use ConfigurationTestCaseTrait;
 

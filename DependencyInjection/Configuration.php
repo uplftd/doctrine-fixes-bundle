@@ -12,8 +12,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('ruvents_doctrine_fixes');
+        $treeBuilder = new TreeBuilder('ruvents_doctrine_fixes');
+        $rootNode = $treeBuilder->getRootNode();
 
         /** @noinspection PhpUndefinedMethodInspection */
         $rootNode
